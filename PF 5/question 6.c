@@ -1,0 +1,74 @@
+#include<stdio.h>
+int main(){
+	int n,count=0;
+	printf("enter Number n:");
+	scanf("%d",&n);
+	if(n&(1<<0))
+	count+=1;
+	if(n&(1<<1))
+	count+=1;
+	if(n&(1<<2))
+	count+=1;
+	if(n&(1<<3))
+	count+=1;
+	if(n&(1<<4))
+	count+=1;
+	if(n&(1<<5))
+	count+=1;
+	if(n&(1<<6))
+	count+=1;
+	if(n&(1<<7))
+	count+=1;
+	if(n&(1<<8))
+	count+=1;
+	if(n&(1<<9))
+	count+=1;
+	if(n&(1<<10))
+	count+=1;
+	if(n&(1<<11))
+	count+=1;
+	if(n&(1<<12))
+	count+=1;
+	if(n&(1<<13))
+	count+=1;
+	if(n&(1<<14))
+	count+=1;
+	if(n&(1<<15))
+	count+=1;
+	if(n&(1<<16))
+	count+=1;
+	if(n&(1<<17))
+	count+=1;
+	if(n&(1<<18))
+	count+=1;
+	if(n&(1<<19))
+	count+=1;
+	if(n&(1<<20))
+	count+=1;
+	if(n&(1<<21))
+	count+=1;
+	if(n&(1<<22))
+	count+=1;
+	if(n&(1<<23))
+	count+=1;
+	if(n&(1<<24))
+	count+=1;
+	if(n&(1<<25))
+	count+=1;
+	if(n&(1<<26))
+	count+=1;
+	if(n&(1<<27))
+	count+=1;
+	if(n&(1<<28))
+	count+=1;
+	if(n&(1<<29))
+	count+=1;
+	if(n&(1<<30))
+	count+=1;
+	if(n&(1<<31))
+	count+=1;
+	if(n&(1<<32))
+	count+=1;
+	printf("Number of 1s are:%d",count);
+	
+}
